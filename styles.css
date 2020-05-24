@@ -1007,5 +1007,6 @@ main {
             #home {min-height: 1200px}
             #professional-awards p, #professional-activities-reviewing p {margin-bottom: 10px;}
             #academic .col-33 {display: block; width: 100%;}
-            .resume {width: 100%;}
+            .resume {width: auto;}
+            .resume iframe {width: auto;}
         }
