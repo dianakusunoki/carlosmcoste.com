@@ -526,6 +526,7 @@ main {
 
 /*RESUME*/
 .resume {
+    display: inline-block;
     margin: 24px 0 56px 0;
     width: 60%;
     height: 100%;
