@@ -50,7 +50,7 @@ main {
 .resume {
     display: inline-block;
     margin: 24px 0 56px 0;
-    width: 80%;
+    width: 60%;
     height: 100%;
     box-shadow: 2px 2px 8px 4px #00000030;
     overflow: scroll;
