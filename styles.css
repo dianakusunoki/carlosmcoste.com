@@ -967,6 +967,7 @@ main {
             }
             #pdws .img-container, #tru-it .img-container {margin-bottom: 25px !important;}
             .resume {width: 100%;}
+            .resume iframe {width: auto;}
         }
 
     /* SMALLER THAN 650px */
