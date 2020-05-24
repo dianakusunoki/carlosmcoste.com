@@ -42,33 +42,6 @@ main {
 	color: #180046;
 }
 
-.cursor-default {
-    cursor: default !important;
-}
-
-
-.resume {
-    display: inline-block;
-    margin: 24px 0 56px 0;
-    width: 60%;
-    height: 100%;
-    box-shadow: 2px 2px 8px 4px #00000030;
-    overflow: scroll;
-}
-.resume iframe {
-    width: 100%;
-    height: 100%;
-    height: -webkit-fill-available;
-    border: none;
-    overflow: scroll;
-}
-@media only screen and (max-width: 800px) {
-        .resume {
-            width: 100%;
-        }
-    }
-
-
 /* DROPDOWNS */
 .dropdown {
   float: right;
@@ -551,6 +524,22 @@ main {
         content: "";
     }
 
+/*RESUME*/
+.resume {
+    display: inline-block;
+    margin: 24px 0 56px 0;
+    width: 60%;
+    height: 100%;
+    box-shadow: 2px 2px 8px 4px #00000030;
+    overflow: scroll;
+}
+.resume iframe {
+    width: 100%;
+    height: 100%;
+    height: -webkit-fill-available;
+    border: none;
+    overflow: scroll;
+}
 
 /* RESEARCH */
     .reference {
@@ -763,6 +752,7 @@ main {
             cursor: pointer;
         }
         .unslider-nav li.unslider-active {background: #fff; cursor: default;}
+        .cursor-default {cursor: default !important;}
 
 
 /* MEDIA QUERIES */
@@ -931,9 +921,9 @@ main {
                 font-weight: 300;
                 color: #7f7f7f;
             }
-            nav li:hover {background-color: #d3f1eb; color: #7f7f7f;}
+            nav li:hover {background-color: #d0f5f4; color: #7f7f7f;}
             nav li:hover a:hover {
-                color: #1e83b5;
+                color: #5D00EB;
                 font-weight: 400;
                 letter-spacing: 1.01px;
             }
@@ -945,7 +935,7 @@ main {
                 text-decoration: none;
                 transition: 250ms all ease;
                 -webkit-transition: 250ms all ease;
-            }
+            }    
             .container-vcenter {
                 width: 100%;
                 max-width: none;
@@ -976,6 +966,7 @@ main {
                 height: 100%;
             }
             #pdws .img-container, #tru-it .img-container {margin-bottom: 25px !important;}
+            .resume {width: 100%;}
         }
 
     /* SMALLER THAN 650px */
