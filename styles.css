@@ -966,7 +966,7 @@ main {
                 height: 100%;
             }
             #pdws .img-container, #tru-it .img-container {margin-bottom: 25px !important;}
-            .resume {width: 100%;}
+            .resume {width: 100%; height: auto;}
         }
 
     /* SMALLER THAN 650px */
@@ -1007,9 +1007,6 @@ main {
             #home {min-height: 1200px}
             #professional-awards p, #professional-activities-reviewing p {margin-bottom: 10px;}
             #academic .col-33 {display: block; width: 100%;} 
-            .resume {
-                width: 100%;
-                height: auto;
-            }
+            .resume {width: 100%; height: auto;}
        
         }
