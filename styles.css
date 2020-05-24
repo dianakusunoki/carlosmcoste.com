@@ -526,7 +526,6 @@ main {
 
 /*RESUME*/
 .resume {
-    display: inline-block;
     margin: 24px 0 56px 0;
     width: 60%;
     height: 100%;
@@ -1006,7 +1005,7 @@ main {
             .social:first-child {padding: 0;}
             #home {min-height: 1200px}
             #professional-awards p, #professional-activities-reviewing p {margin-bottom: 10px;}
-            #academic .col-33 {display: block; width: 100%;}
-            .resume {width: auto;}
-            .resume embed {width: auto;}
+            #academic .col-33 {display: block; width: 100%;} 
+            .resume {width: 100%;}
+       
         }
