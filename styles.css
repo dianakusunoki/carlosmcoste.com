@@ -533,7 +533,7 @@ main {
     box-shadow: 2px 2px 8px 4px #00000030;
     overflow: scroll;
 }
-.resume iframe {
+.resume embed {
     width: 100%;
     height: 100%;
     height: -webkit-fill-available;
@@ -1008,5 +1008,5 @@ main {
             #professional-awards p, #professional-activities-reviewing p {margin-bottom: 10px;}
             #academic .col-33 {display: block; width: 100%;}
             .resume {width: auto;}
-            .resume iframe {width: auto;}
+            .resume embed {width: auto;}
         }
