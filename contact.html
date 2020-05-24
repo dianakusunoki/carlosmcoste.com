@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Contact - Carlos M Coste</title>
+	<link rel="icon" type="image/png" href="images/logo/cc_logo_400x400.png" />
+	<link rel="stylesheet" href="styles.css" type="text/css" />
+	<style type="text/css">
+		@import url('https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600|Open+Sans:100,200,300,400,500,600|Raleway:100,200,300,400,500,600');
+		@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+	</style>
+</head>
+
+<body>
+
+<header>
+	<div class="header-container">
+		<div class="main-menu">
+			<a href="index.html" target="_self">
+				<img class="nav-logo" src="images/logo/cc_logo_400x400.png" width="250" height="250" alt="Carlos M Coste Logo">
+			</a>
+			<div class="nav-toggle">
+				<a href="#"><i class="fa fa-navicon"></i></a>
+			</div>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="index.html" target="_self">home</a></li>
+				<li><a href="resume.html" target="_self">resume</a></li>
+				<!--<li><a href="portfolio.html" target="_self">portfolio</a></li>-->
+				<!--<li><a href="about.html" target="_self">about</a></li>-->
+				<li><a href="contact.html" target="_self" class="current-page">contact</a></li>
+			</ul>
+		</nav>
+	</div>
+</header>
+<main id="contact">
+	<div id="contact-container" class="container-vcenter">
+		<div id="getintouch">
+			<div class="row centered">
+				<h1 class="centered">CONTACT ME</h1>
+				<img id="profile" src="images/headshot/carlos_headshot_resume.png" alt="Profile" />
+			</div>
+			<div class="row centered">
+					<a href="mailto:info@carlosmcoste.com" title="email" target="_self">
+						<div class="btn btn-primary">
+							<i class="fa fa-envelope-o icon-left"></i>info @ carlosmcoste . com
+						</div>
+					</a>
+			</div>
+			<div class="row centered">
+				<div id="getintouch-text">
+					The easiest way to get in touch with me is via email and phone.
+					You can also find me on LinkedIn.
+				</div>
+			</div>
+			<div class="row centered">
+				<div class="social-tiles-container">
+					<div class="social-tile">
+						<a href="mailto:info@carlosmcoste.com" target="_self" rel="noopener noreferrer" title="info@carlosmcoste.com">
+							<div class="social-tile-content">
+								<i class="fa fa-envelope-o"></i>
+							</div>
+						</a>
+					</div>
+					<div class="social-tile">
+						<a title="(347) 273-7113">
+							<div class="social-tile-content cursor-default">
+								<i class="fa fa-phone"></i>
+							</div>
+						</a>
+					</div>
+					<div class="social-tile">
+						<a href="https://www.linkedin.com/in/carlosmcoste" target="_blank" rel="noopener noreferrer" data-placement="bottom" data-title="" data-toggle="tooltip" title="https://www.linkedin.com/in/carlosmcoste" data-original-title="Linkedin">
+							<div class="social-tile-content">
+								<i class="fa fa-linkedin"></i>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="photo-gallery">
+			<div class="row centered">
+				<div>
+					<ul>
+						<li><img src="images/gallery/chiller.jpg" alt="Chiller" /></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</main>
+
+
+<footer>
+	<div class="footer-container">
+			<div class="footer-text">
+				<i class="fa fa-copyright icon-left"></i>2020 Carlos M Coste
+			</div>
+			<div class="footer-social">
+				<div class="social tooltip">
+					<a href="mailto:info@carlosmcoste.com" target="_self" rel="noopener noreferrer" data-placement="bottom" data-title="" data-toggle="tooltip" title="Email" data-original-title="Email">
+					<i class="fa fa-envelope-o"></i></a>
+					<span class="tooltip-text">Email</span>
+				</div>
+				<div class="social tooltip">
+					<a href="https://www.linkedin.com/in/carlosmcoste" target="_blank" rel="noopener noreferrer" data-placement="bottom" data-title="" data-toggle="tooltip" title="LinkedIn" data-original-title="Linkedin">
+					<i class="fa fa-linkedin"></i></a>
+					<span class="tooltip-text">LinkedIn</span>
+				</div>
+			</div>
+		</div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="./js/index.js"></script>
+<script src="./js/unslider.js"></script>
+<script>
+	$('.my-slider').unslider({
+		infinite: true
+	});
+</script>
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-1329985-6', 'auto');
+	ga('send', 'pageview');
+</script>
+</body>
+</html>
