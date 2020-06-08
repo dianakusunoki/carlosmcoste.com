@@ -196,6 +196,8 @@ img.img--with_border {
   a.demo-gallery__img--main {
     width: 127px;
   }
+    .img-large {height: 404px !important; width: auto !important;}
+
 }
 
 
@@ -207,6 +209,8 @@ margin: 0 1px 1px 0;
   a.demo-gallery__img--main {
     width: 109px;
   }
+    .img-large {height: 404px !important; width: auto !important;}
+
 }
 
 
